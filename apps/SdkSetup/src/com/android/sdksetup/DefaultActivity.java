@@ -42,7 +42,7 @@ public class DefaultActivity extends Activity {
 
         // Enable the GPS.
         // Not needed since this SDK will contain the Settings app.
-        Settings.Secure.putString(getContentResolver(), Settings.Secure.LOCATION_PROVIDERS_ALLOWED, LocationManager.GPS_PROVIDER);
+        //Settings.Secure.putString(getContentResolver(), Settings.Secure.LOCATION_PROVIDERS_ALLOWED, LocationManager.GPS_PROVIDER);
         
         // enable install from non market
         Settings.Secure.putInt(getContentResolver(), Settings.Secure.INSTALL_NON_MARKET_APPS, 1);
